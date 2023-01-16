@@ -1,0 +1,131 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html{
+    width:100%;
+    height: 100vh;
+}
+body
+{
+    background-image: url("../../shared/img/background.png");
+    background-size: 100% 100%;
+    object-fit:fill;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 100vh;
+}
+.container2
+{
+    position: relative;
+    border:1px solid black;
+    width:100%;
+    height: 100%;
+}
+.floor
+{
+    position:absolute;
+    top:90%;
+    background-color: brown;
+    width:100%;
+    height:10%;
+}
+.base_friend
+{
+    position: absolute;
+    top:70%;
+    width:10%;
+    height: 20%;
+    background-color: blue;
+}
+.base_friend>img
+{
+    width:100%;
+    height: 100%;
+}
+.base_enemy>img
+{
+    width:100%;
+    height: 100%;
+}
+.base_enemy
+{
+    position: absolute;
+    top:70%;
+    left:90%;
+    width:10%;
+    height: 20%;
+    background-color: red;
+}
+.top_side
+{
+    position: relative;
+    border:1px solid black;
+    width:100%;
+    height:10%;
+}
+.gold
+{
+    background-color:red;
+    width:15%;
+    height: 50%;
+    color:white;
+}
+.exp
+{
+    width:15%;
+    height: 50%;
+    background-color: black;
+    color:white;
+}
+.spawner-place
+{
+    width:50%;
+    height: 100%;
+    transform:translate(30%,-100%);
+}
+.spawner
+{
+    width:20%;
+    height: 100%;
+    background: red;
+    border:1px solid black;
+}
+.skill
+{
+    width:20%;
+    height:100%;
+    background: blue;
+    transform: translate(77%,-100%);
+}
+.gold_img
+{
+    height:100%;
+    width:20%;
+    background: blue;
+}
+.gold_img>img
+{
+    width:90%;
+    height: 100%;
+}
+.exp_img
+{
+    height:100%;
+    width:20%;
+    background: blue;
+}
+.exp_img>img
+{
+    width:90%;
+    height: 100%;
+}
+.spawn-enemy-soldier{
+    display:none;
+}
+.spawn-enemy-archer{
+    display: none;
+}
