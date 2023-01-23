@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./shared/css/bootstrap.css">
+    <link rel="stylesheet" href="./shared/css/main-style.css">
+    <link rel="stylesheet" href="./game/css/style-ui.css">
+    <link rel="stylesheet" href="./game/css/style.css">
+    
+    <title>WarWar The Game</title>
+</head>
+<body>
+    <div class="container2 background">
+        <div class="floor"></div>  <!-- This is the whole floor of the game -->
+        <div class="base_friend">  <!-- Friendly base, spawn building. self explanatory. -->
+            <img src="./game/img/base.png" alt="">
+        </div>
+        <div class="base_enemy">
+            <img src="./game/img/base.png" alt="">
+        </div>
+        <div class="top_side">  <!-- This is the top side of the screen where most of the UI is located. -->
+            <div class="gold">
+                <div class="gold_img float-left">
+                    <img src="./game/img/gold.png" alt="">
+                </div>
+                <span class = "gold_span">0</span>
+            </div>
+            <div class="exp">  <!-- EXP increases in time and only way to spend it is by leveling up to another age, which is not implemented yet -->
+                <div class="exp_img float-left">
+                    <img src="./game/img/exp.png" alt="">
+                </div>
+                <span class="exp_span">0</span>
+            </div>
+            <div class="spawner-place float-left">
+                <div class="spawner spawn-friend-soldier float-right">friend soldier <br> 10 coin</div>
+                <div class="spawner spawn-enemy-soldier float-right">enemy soldier</div>
+                <div class="spawner spawn-friend-archer float-right">friend archer <br> 20 coin</div>
+                <div class="spawner spawn-enemy-archer float-right">enemy archer</div>
+            </div>
+            <div class="skill float-left"></div>  <!-- Every age will have its own skill, whether that be volcano rain in the first age, or arrow rain in the roman time. -->
+        </div>
+    </div>
+    <script src="./shared/js/jquery.js"></script>
+    <script src="./shared/js/bootstrap.js"></script>
+    <script src="./shared/js/main-script.js"></script>
+    <script src="./game/js/stats.js"></script>
+    <script src="./game/js/main.js"></script>
+    <script src="./game/js/ui.js"></script>
+</body>
+</html>

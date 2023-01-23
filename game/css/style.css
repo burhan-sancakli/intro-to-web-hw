@@ -1,0 +1,64 @@
+
+.unit{
+    position: absolute;
+    top:90%;
+    left:0;
+}
+.enemy{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.unit.arrow{
+    width:40px;
+    height:2px;
+    background: url('../img/projectiles/arrow.png');
+    background-size: 100% 100%;
+}
+
+.character.enemy{
+    left:90%;
+}
+.s_0_0{
+    width:40px;
+    height:40px;
+    background-size: 100% 100%;
+}
+.s_0_0.idle{
+    background: url('../img/s_0_0_idle.gif');
+    background-size: 100% 100%;
+}
+.s_0_0.moving{
+    background: url('../img/s_0_0_moving.gif');
+    background-size: 100% 100%;
+}
+.s_0_0.attacking{
+    background: url('../img/s_0_0_attacking.gif');
+    background-size: 100% 100%;
+}
+
+.a_0_0{
+    width:40px;
+    height:40px;
+    background-size: 100% 100%;
+}
+.a_0_0.idle{
+    background: url('../img/a_0_0_idle.gif');
+    background-size: 100% 100%;
+}
+.a_0_0.moving{
+    background: url('../img/a_0_0_moving.gif');
+    background-size: 100% 100%;
+}
+.a_0_0.attacking{
+    background: url('../img/a_0_0_attacking.gif');
+    background-size: 100% 100%;
+}
+.a_0_0.shooting{
+    background: url('../img/a_0_0_shooting.gif');
+    background-size: 100% 100%;
+}
+.a_0_0.moving.shooting{
+    background: url('../img/a_0_0_moving_shooting.gif');
+    background-size: 100% 100%;
+}
